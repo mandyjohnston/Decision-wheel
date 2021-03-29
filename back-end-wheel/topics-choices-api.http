@@ -1,0 +1,21 @@
+### Returns a collection of all topics.
+GET http://localhost:8080/api/topics/
+
+### Adds a Topic to the collection
+POST http://localhost:8080/api/topics/
+
+### Returns a single topic based on id.
+GET http://localhost:8080/api/topics/{{id}}
+
+### Deletes a topic based on id.
+DELETE http://localhost:8080/api/topics/{{id}}
+
+### Adds a choice to a topic.  Returns updated album.
+PATCH http://localhost:8080/api/topics/10/choices
+Content-Type: application/json
+
+### Returns a topics choice collection.
+GET http://localhost:8080/api/albums/{{id}}/choices
+
+
+
