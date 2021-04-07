@@ -1,7 +1,8 @@
-package com.wheel.demo;
+package org.wecancodeit.campusesbootcamps.repositories;
 
-import Models.Topic;
 import org.springframework.data.repository.CrudRepository;
+import org.wecancodeit.campusesbootcamps.models.Topic;
 
 public interface TopicRepository extends CrudRepository<Topic, Long> {
+
 }
